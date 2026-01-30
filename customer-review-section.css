@@ -1,0 +1,106 @@
+.customer-review-section {
+  margin-top: 50px;
+  padding-bottom: 50px;
+  height: 746px;
+  background: transparent
+    linear-gradient(180deg, var(--unnamed-color-e41b5c) 0%, #bf3551 100%) 0% 0%
+    no-repeat padding-box;
+  background: transparent linear-gradient(180deg, #e41b5c 0%, #bf3551 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 20px;
+  opacity: 1;
+  text-align: center;
+  align-items: center;
+  position: relative;
+}
+.customer-review-section h1 {
+  padding-top: 90px;
+  margin-bottom: 60px;
+  font: normal normal bold 50px/67px Effra;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.customer-review-section .customer-review-p-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  margin: 10px 130px;
+  width: 1200px;
+}
+.customer-review-section .customer-review-img-div {
+  align-items: center;
+  margin: 0px 130px;
+  padding: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.customer-review-section .customer-review-p-div .awesome-deals-div,
+.amazing-vouchers-div,
+.cool-products-div {
+  padding-top: 25px;
+  width: 370px;
+  height: 234px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+  opacity: 1;
+}
+.name-div {
+  align-items: center;
+  margin: 0px 130px;
+  padding: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.name-div h5,
+p {
+  padding: 0px;
+  margin: 0px;
+}
+.name-div h5 {
+  text-align: center;
+  font: normal normal 600 21px/31px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.name-div p {
+  text-align: center;
+  font: normal normal medium 18px/27px Poppins;
+  letter-spacing: 0px;
+  color: #e5edf5;
+  opacity: 1;
+}
+.customer-review-section .customer-review-p-div p {
+  width: 260px;
+  height: 62px;
+  padding-left: 60px;
+  padding-bottom: 15px;
+  font: normal normal medium 14px/21px Poppins;
+  letter-spacing: 0px;
+  color: #999999;
+  opacity: 1;
+}
+.customer-review-section .customer-review-p-div h3 {
+  font: normal normal 600 20px/30px Poppins;
+  letter-spacing: 0px;
+  color: #1b1b1b;
+  opacity: 1;
+}
+.left-icon {
+  position: absolute;
+  top: 710px;
+  right: 90px;
+}
+.right-icon {
+  position: absolute;
+  top: 710px;
+  right: 35px;
+}
+@media (max-width: 380px) {
+  .left-icon,
+  .right-icon {
+    width: 40px;
+    height: 40px;
+  }
+}

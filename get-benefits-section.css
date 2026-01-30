@@ -1,0 +1,153 @@
+.get-benefits-section {
+  padding: 70px 195px 0px 150px;
+  margin-bottom: 75px;
+  margin-top: 100px;
+  height: 976px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 20px #00000014;
+  border-radius: 20px;
+  opacity: 1;
+}
+.get-benefits-section h3 {
+  color: var(--unnamed-color-e41b5c);
+  text-align: left;
+  font: normal normal bold 18px/28px Effra;
+  letter-spacing: 0px;
+  color: #e41b5c;
+  opacity: 1;
+  padding: 0px;
+  margin: 0px;
+}
+.get-benefits-section p {
+  font: normal normal normal 16px/24px Effra;
+  letter-spacing: 0px;
+  color: #222a41;
+  opacity: 1;
+  padding: 0px;
+  margin: 0px 0px 50px 0px;
+}
+.get-benefits-section h1 {
+  padding-bottom: 20px;
+  padding-left: 90px;
+  font-size: 50px;
+  text-align: center;
+}
+.get-benefits-section h1 .get-span {
+  text-align: left;
+  font: normal normal bold 50px/67px Effra;
+  letter-spacing: 0px;
+  color: #391140;
+}
+.get-benefits-section h1 .benefits-span {
+  color: var(--unnamed-color-e41b5c);
+  text-align: left;
+  font: normal normal bold 50px/67px Effra;
+  letter-spacing: 0px;
+  color: #e41b5c;
+}
+.get-benefits-section-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.get-benefits-section-up-img {
+  position: absolute;
+  top: 1492px;
+  right: -22px;
+  width: 1496px;
+  height: 55px;
+  background: transparent url("img/Group 14319.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.get-benefits-section .cashback-rewards-p {
+  width: 210px;
+  height: 64px;
+}
+.get-benefits-section .voucher-coupons-p {
+  width: 210px;
+  height: 66px;
+}
+.get-benefits-section .personalized-shopping-p {
+  width: 210px;
+  height: 91px;
+}
+.get-benefits-section .invite-friends-p {
+  width: 206px;
+  height: 90px;
+}
+.get-benefits-section .transfer-points-p {
+  width: 206px;
+  height: 90px;
+}
+@media (max-width: 780px) {
+  .get-benefits-section {
+    padding: 40px 20px;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 15px;
+  }
+  .get-benefits-section h3 {
+    font-size: 16px;
+    text-align: center;
+  }
+  .get-benefits-section p {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .get-benefits-section h1 {
+    font-size: 32px;
+    padding-left: 0;
+    text-align: center;
+  }
+  .get-benefits-section h1 .get-span,
+  .get-benefits-section h1 .benefits-span {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .get-benefits-section-div {
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+  }
+  .get-benefits-section .cashback-rewards-p,
+  .get-benefits-section .voucher-coupons-p,
+  .get-benefits-section .personalized-shopping-p,
+  .get-benefits-section .invite-friends-p,
+  .get-benefits-section .transfer-points-p {
+    width: 100%;
+    height: auto;
+  }
+  .get-benefits-section-up-img {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  .get-benefits-section {
+    padding: 60px 60px 0 60px;
+    height: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .get-benefits-section h1 {
+    padding-left: 0;
+    font-size: 40px;
+  }
+  .get-benefits-section h1 .get-span,
+  .get-benefits-section h1 .benefits-span {
+    font-size: 40px;
+    line-height: 55px;
+  }
+  .get-benefits-section-div {
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+  .get-benefits-section-up-img {
+    top: 1420px;
+  }
+}

@@ -1,0 +1,132 @@
+.first-section {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  height: 877px;
+}
+.first-section .img-device1 {
+  position: absolute;
+  top: 35px;
+  right: 380px;
+}
+.first-section .img-device2 {
+  position: absolute;
+  top: 200px;
+  right: 188px;
+}
+.first-section .fire-icon {
+  position: absolute;
+  top: 142px;
+  right: 370px;
+}
+.first-section h1 {
+  width: 523px;
+  height: 139px;
+  font: normal normal bold 117px/127px Effra;
+  letter-spacing: -5.03px;
+  color: #391140;
+  opacity: 1;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+.first-section h2 {
+  width: 491px;
+  height: 139px;
+  font: normal normal bold 117px/127px Effra;
+  color: #e41b5c;
+  letter-spacing: -5.03px;
+  opacity: 1;
+  padding: 0px;
+  margin: 0px;
+}
+.first-section p {
+  display: 0px;
+  margin-top: 0px;
+  font: normal normal normal 44px/81px Effra;
+  letter-spacing: 0px;
+  color: #777777;
+}
+.ghalya-span {
+  font: normal normal normal 44px/81px Effra;
+  letter-spacing: 0px;
+  opacity: 100%;
+  color: #551e5f;
+  padding: 5px;
+}
+@media (max-width: 768px) {
+  .first-section {
+    height: auto;
+    min-height: 600px;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+  .first-section .img-device1 {
+    position: relative;
+    top: auto;
+    right: auto;
+    width: 150px;
+    margin: 20px auto;
+    order: 3;
+  }
+  .first-section .img-device2 {
+    position: relative;
+    top: auto;
+    right: auto;
+    width: 130px;
+    margin: 20px auto;
+    order: 4;
+  }
+  .first-section .fire-icon {
+    position: relative;
+    top: auto;
+    right: auto;
+    width: 40px;
+    margin: 10px auto;
+    order: 2;
+  }
+  .first-section h1,
+  .first-section h2 {
+    font-size: 60px;
+    line-height: 70px;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    letter-spacing: -2px;
+    margin: 10px auto;
+  }
+  .first-section p {
+    font-size: 24px;
+    line-height: 40px;
+    margin: 20px 0;
+  }
+  .ghalya-span {
+    font-size: 24px;
+    line-height: 40px;
+  }
+}
+@media (max-width: 480px) {
+  .first-section {
+    min-height: 500px;
+    padding: 15px;
+  }
+  .first-section h1,
+  .first-section h2 {
+    font-size: 45px;
+    line-height: 55px;
+    letter-spacing: -1px;
+  }
+  .first-section p {
+    font-size: 20px;
+    line-height: 34px;
+  }
+  .ghalya-span {
+    font-size: 20px;
+    line-height: 34px;
+  }
+  .first-section .img-device1,
+  .first-section .img-device2 {
+    width: 120px;
+  }
+}

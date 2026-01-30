@@ -1,0 +1,80 @@
+.subscribe-section {
+  margin-top: 150px;
+  margin-bottom: 50px;
+  height: 500px;
+  background-image: url(images/Group\ 14285.png);
+  background-repeat: no-repeat;
+  background-size: 1460px 500px;
+  background-position: -30px 10px;
+  opacity: 1;
+  position: relative;
+}
+.subscribe-section .subscribe-img {
+  position: absolute;
+  top: -69px;
+  right: 54px;
+}
+.subscribe-section .subscribe-right-div {
+  padding: 75px;
+}
+.subscribe-section .subscribe-right-div h2 {
+  padding: 0px;
+  margin: 0px;
+  font: normal normal normal 70px/67px Effra;
+  letter-spacing: 0px;
+  color: #38103f;
+}
+.subscribe-section .subscribe-right-div h1 {
+  padding: 0px;
+  margin: 0px;
+  color: var(--unnamed-color-e41b5c);
+  text-align: left;
+  font: normal normal bold 70px/67px Effra;
+  letter-spacing: 0px;
+  color: #e41b5c;
+}
+.subscribe-section .subscribe-right-div p {
+  margin-bottom: 40px;
+  width: 400px;
+  height: 54px;
+  text-align: left;
+  font: normal normal normal 22px/27px Effra;
+  letter-spacing: 0px;
+  color: #38103f;
+  opacity: 1;
+}
+.subscribe-section .subscribe-right-div .input-box {
+  width: 659px;
+  height: 74px;
+  padding-left: 100px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 10px 10px #0000000a;
+  border: 1px solid #d1dbe3;
+  border-radius: 37px;
+  opacity: 1;
+}
+.subscribe-section .subscribe-right-div .mail-icon {
+  position: absolute;
+  top: 330px;
+  right: 1250px;
+  width: 36px;
+  height: 27px;
+  background: transparent url("img/Group 13005.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.subscribe-section .subscribe-right-div .subscribe-button {
+  position: absolute;
+  top: 308px;
+  right: 570px;
+  width: 167px;
+  height: 66px;
+  background: var(--unnamed-color-e41b5c) 0% 0% no-repeat padding-box;
+  background: #e41b5c 0% 0% no-repeat padding-box;
+  font: normal normal normal 22px/27px Effra;
+  border: none;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  border-radius: 37px;
+  opacity: 1;
+}
