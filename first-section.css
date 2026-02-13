@@ -54,11 +54,55 @@
   color: #551e5f;
   padding: 5px;
 }
+@media (max-width: 1200px) {
+  .first-section {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  .first-section h1,
+  .first-section h2 {
+    font-size: 80px;
+    line-height: 95px;
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    letter-spacing: -3px;
+  }
+  .first-section p {
+    font-size: 30px;
+    line-height: 50px;
+    margin-top: 15px;
+  }
+  .ghalya-span {
+    font-size: 30px;
+    line-height: 50px;
+  }
+  .first-section .img-device1,
+  .first-section .img-device2,
+  .first-section .fire-icon {
+    position: relative;
+    top: auto;
+    right: auto;
+    margin: 15px auto;
+  }
+  .first-section .img-device1 {
+    width: 220px;
+  }
+
+  .first-section .img-device2 {
+    width: 200px;
+  }
+  .first-section .fire-icon {
+    width: 55px;
+  }
+}
 @media (max-width: 768px) {
   .first-section {
     height: auto;
     min-height: 600px;
-    flex-direction: column;
     padding: 20px;
     text-align: center;
   }
